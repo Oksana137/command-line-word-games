@@ -28,14 +28,11 @@ function who_wins(userChoice, computerChoice) {
 
   switch (userChoice) {
     case "paper":
-      return computerChoice == "paper" ? "You win" : "You lose";
-      break;
+      return computerChoice == "paper" ? "You win" : "You lose"
     case "rock":
       return computerChoice == "scissors" ? "You win" : "You lose";
-      break;
     case "scissors":
       return computerChoice == "paper" ? "You win" : "You lose";
-      break;
   }
 }
 
