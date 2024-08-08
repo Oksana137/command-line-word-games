@@ -14,7 +14,7 @@ function determineWinner(userChoice, computerChoice) {
 
   switch (userChoice) {
     case "paper":
-      return computerChoice == "paper" ? "You win" : "You lose";
+      return computerChoice == "rock" ? "You win" : "You lose";
     case "rock":
       return computerChoice == "scissors" ? "You win" : "You lose";
     case "scissors":
